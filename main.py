@@ -10,7 +10,7 @@ class HelloWorld(Resource):
 		data={"data":"Hello World"} 
 		return data 
 
-api.add_resource(HelloWorld,'/hello') 
+api.add_resource(HelloWorld,'/') 
 
 
 if __name__=='__main__': 
